@@ -9,6 +9,7 @@ const Avatar = ({src, height = 45, text }) => {
         src={src}
         height={height}
         width={height}
+        alt="avatar"
       />
       {text}
     </span>
